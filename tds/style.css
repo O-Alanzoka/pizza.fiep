@@ -9,7 +9,7 @@
 }
 
 body{
-    background: #000;
+    background: #f4f4f4;
     color: #fff;
 }
 
@@ -162,7 +162,7 @@ body{
     background: #1E6F43;
     padding: 30px;
     margin: 0 20px;
-    border-radius: 60px;
+    border-radius: 12   px;
     width: 180px;
 
     display: flex;
@@ -200,4 +200,55 @@ body{
     font-size: 32px;
     margin-bottom: 40px;
     font-weight: 500;
+}
+
+.lista{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.lista ul{
+    list-style: none;
+}
+
+.lista ul::before{
+    content: attr(data-title);
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.lista li{
+    margin: 6px 0;
+    font-weight: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.lista li::before{
+    content: ".";
+    position: absolute;
+    left: 0;
+    color: #000;
+}
+
+.sobre{
+    background-color: #145a32;
+
+}
+
+.contato{
+    background-color: #000;
+}
+
+.rodape{
+    background-color: #000;
+}
+
+.lado1{
+    padding-right: 10px;
 }
