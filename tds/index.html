@@ -37,7 +37,7 @@
         </div>
       </div>
     </section>
-    <div class="overlay-menu" id="overlay-menu"></div>
+    <div class="overlay-menu" id="overlay"></div>
     <section class="diferenciais">
       <h2>Nossos diferenciais</h2>
       <div class="cards">
@@ -140,15 +140,27 @@
           ></iframe>
         </div>
       </div>
-      <form class="forms">
-        <input type=" text " placeholder="nome " required />
+      <div class="form-container">
+        <form Method="post"id="whatsappForm">
+            <input type="hidden" name="id" value="3">
 
-        <input type="email " placeholder="Email " required />
-
-        <textarea placeholder="Escreva sua mensagem aqui " required></textarea>
-
-        <button type="submit ">Enviar</button>
-      </form>
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem"></label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <div class="form-group button">
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </div>
+        </form>
+    </div>
     </section>
 
     <footer class="rodape">
@@ -161,8 +173,5 @@
       </div>
     </footer>
     <script src="script.js"></script>
-    <script>
-      // Configurações do JS do formulário//
-    </script>
   </body>
 </html>
