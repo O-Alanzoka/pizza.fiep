@@ -1,177 +1,157 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza Fiep</title>
     <link rel="stylesheet" href="./style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- MENU -->
     <header class="header">
-      <h1 class="logo">Pizza Fiep</h1>
+        <h1 class="logo">Pizza Fiep</h1>
 
-      <div class="menu-toggle" id="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <nav class="menu" id="menu">
-        <a href="#">Home</a>
-        <a href="#">Cardápio</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
-      </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="menu" id="menu">
+            <a href="#hero">Home</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
     <!-- HERO -->
-    <section class="hero">
-      <div class="overlay">
-        <div class="hero-text">
-          <h2>
-            A melhor industria <br />
-            de pizza <br />
-            do Brasil
-          </h2>
-          <button>Peça agora</button>
+    <section class="hero" id="hero">
+        <div class="overlay">
+            <div class="hero-text">
+                <h2>
+                    A melhor industria <br /> de pizza <br /> do Brasil
+                </h2>
+                <button>Peça agora</button>
+            </div>
         </div>
-      </div>
     </section>
     <div class="overlay-menu" id="overlay"></div>
     <section class="diferenciais">
-      <h2>Nossos diferenciais</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="./tomate.png" alt="Tomate" />
-          <p>Ingredientes frescos</p>
-        </div>
-        <div class="card">
-          <img src="./fogo.png" alt="Fogo" />
-          <p>Forno a lenha</p>
-        </div>
-        <div class="card">
-          <img src="./queijo.png" alt="Queijo" />
-          <p>Mussarela artesanal</p>
-        </div>
-        <div class="card">
-          <img src="./relampago.png" alt="Relampago" />
-          <p>Entrega rápida</p>
-        </div>
-      </div>
-    </section>
-    <section class="cardapio">
-      <h2>🍕Cardápio🍕</h2>
-      <div class="lista">
-        <ul data-title="🍕 Tradicional">
-          <li>Calabresa</li>
-          <li>4 Queijos</li>
-          <li>Portuguesa</li>
-          <li>marguerita</li>
-          <li>Bacon</li>
-          <li>Frango com Catupiry</li>
-          <li>Strogonoff</li>
-          <li>Bolonhesa</li>
-          <li>Napolitana</li>
-          <li>Peperoni</li>
-          <li>Lombinho defumado</li>
-          <li>Nachos</li>
-          <li>Queijo e Presunto</li>
-        </ul>
-        <ul data-title="🔥Especiais">
-          <li>Carvão</li>
-          <li>Chocolate e Morango</li>
-          <li>Romeu & Julieta</li>
-          <li>Dois amores</li>
-          <li>Abacaxi</li>
-          <li>Nutella</li>
-          <li>Churrasco</li>
-        </ul>
-      </div>
-    </section>
-    <section class="sobre">
-      <div class="conteudo">
-        <h2>Sobre Nós</h2>
-
-        <div class="textoC">
-          <p>
-            Na Pizza FIEP, acreditamos que boas histórias começam ao redor de
-            uma mesa. Nosso espaço nasceu com a ideia de unir pessoas, sabores e
-            momentos especiais em um ambiente acolhedor, inspirado nas
-            tradicionais pizzarias italianas.
-          </p>
-          <div class="pizzaiolo">
-            <img
-              src="Gemini_Generated_Image_4bzopk4bzopk4bzo.png"
-              alt="IApizza"
-            />
-
-            <div class="textoL">
-              <p>
-                Tudo começa com ingredientes selecionados, massa preparada com
-                cuidado e o aroma irresistível que sai do forno a lenha. Cada
-                pizza é feita com dedicação, respeitando a tradição, mas também
-                trazendo um toque de criatividade que torna cada experiência
-                única.
-                <br />
-                <br />Mais do que servir pizzas, queremos criar memórias. Seja
-                em um encontro entre amigos, uma pausa depois de um dia de
-                trabalho ou uma comemoração especial, a Pizza FIEP é um lugar
-                para compartilhar, conversar e aproveitar o melhor da boa
-                comida.
-              </p>
+        <h2>Nossos diferenciais</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="./tomate.png" alt="Tomate" />
+                <p>Ingredientes frescos</p>
             </div>
-          </div>
+            <div class="card">
+                <img src="./fogo.png" alt="Fogo" />
+                <p>Forno a lenha</p>
+            </div>
+            <div class="card">
+                <img src="./queijo.png" alt="Queijo" />
+                <p>Mussarela artesanal</p>
+            </div>
+            <div class="card">
+                <img src="./relampago.png" alt="Relampago" />
+                <p>Entrega rápida</p>
+            </div>
         </div>
-      </div>
+    </section>
+    <section class="cardapio" id="cardapio">
+        <h2>🍕Cardápio🍕</h2>
+        <div class="lista">
+            <ul data-title="🍕 Tradicional">
+                <li>Calabresa</li>
+                <li>4 Queijos</li>
+                <li>Portuguesa</li>
+                <li>marguerita</li>
+                <li>Bacon</li>
+                <li>Frango com Catupiry</li>
+                <li>Strogonoff</li>
+                <li>Bolonhesa</li>
+                <li>Napolitana</li>
+                <li>Peperoni</li>
+                <li>Lombinho defumado</li>
+                <li>Nachos</li>
+                <li>Queijo e Presunto</li>
+            </ul>
+            <ul data-title="🔥Especiais">
+                <li>Carvão</li>
+                <li>Chocolate e Morango</li>
+                <li>Romeu & Julieta</li>
+                <li>Dois amores</li>
+                <li>Abacaxi</li>
+                <li>Nutella</li>
+                <li>Churrasco</li>
+            </ul>
+        </div>
+    </section>
+    <section class="sobre" id="sobre">
+        <div class="conteudo">
+            <h2>Sobre Nós</h2>
+
+            <div class="textoC">
+                <p>
+                    Na Pizza FIEP, acreditamos que boas histórias começam ao redor de uma mesa. Nosso espaço nasceu com a ideia de unir pessoas, sabores e momentos especiais em um ambiente acolhedor, inspirado nas tradicionais pizzarias italianas.
+                </p>
+                <div class="pizzaiolo">
+                    <img src="Gemini_Generated_Image_4bzopk4bzopk4bzo.png" alt="IApizza" />
+
+                    <div class="textoL">
+                        <p>
+                            Tudo começa com ingredientes selecionados, massa preparada com cuidado e o aroma irresistível que sai do forno a lenha. Cada pizza é feita com dedicação, respeitando a tradição, mas também trazendo um toque de criatividade que torna cada experiência única.
+                            <br />
+                            <br />Mais do que servir pizzas, queremos criar memórias. Seja em um encontro entre amigos, uma pausa depois de um dia de trabalho ou uma comemoração especial, a Pizza FIEP é um lugar para compartilhar, conversar e aproveitar
+                            o melhor da boa comida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="contato">
-      <div>
-        <h2 style="color: black">contatos</h2>
+    <section class="contato" id="contato">
         <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.4007730360013!2d-49.27483312385781!3d-25.424861432689877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce411bd7d31bd%3A0xd55f5236caf94127!2sR.%20Paula%20Gomes%2C%20270%20-%20S%C3%A3o%20Francisco%2C%20Curitiba%20-%20PR%2C%2080510-070!5e0!3m2!1spt-BR!2sbr!4v1777907137975!5m2!1spt-BR!2sbr"
-            width="400"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+            <h2 style="color: black">contatos</h2>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.4007730360013!2d-49.27483312385781!3d-25.424861432689877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce411bd7d31bd%3A0xd55f5236caf94127!2sR.%20Paula%20Gomes%2C%20270%20-%20S%C3%A3o%20Francisco%2C%20Curitiba%20-%20PR%2C%2080510-070!5e0!3m2!1spt-BR!2sbr!4v1777907137975!5m2!1spt-BR!2sbr"
+                    width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-      </div>
-      <div class="form-container">
-        <form Method="post"id="whatsappForm">
-            <input type="hidden" name="id" value="3">
+        <div class="forms">
+            <form method="post" id="whatsappForm">
+                <input type="hidden" name="id" value="3" />
 
-            <div class="form-group">
-                <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="Nome" required>
-            </div>
-            <div class="form-group">
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Email" required>
-            </div>
-            <div class="form-group">
-                <label for="mensagem"></label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-            </div>
-            <div class="form-group button">
-                <button type="submit" class="btn btn-primary w-100">Enviar</button>
-            </div>
-        </form>
-    </div>
+                <div class="formN">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Nome" required />
+                </div>
+                <div class="formE">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email" required />
+                </div>
+                <div class="formSG">
+                    <label for="mensagem"></label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <div class="formB">
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                </div>
+            </form>
+        </div>
     </section>
 
     <footer class="rodape">
-      <div>
-        <p>&copy; Thomás Fraiz</p>
-      </div>
-      <div>
-        <p>(41) 991234567</p>
-        <p>R. Paula Gomes, 270, São Francisco</p>
-      </div>
+        <div>
+            <p>&copy; Thomás Fraiz</p>
+        </div>
+        <div>
+            <p>(41) 991234567</p>
+            <p>R. Paula Gomes, 270, São Francisco</p>
+        </div>
     </footer>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
